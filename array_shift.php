@@ -6,6 +6,6 @@ $chocolates = [
 	'popins'
 ];
 
-array_shift($chocolates, 'lollypop');
+array_shift($chocolates);
 
 print_r($chocolates);

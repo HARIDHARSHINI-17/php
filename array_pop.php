@@ -6,7 +6,7 @@ $chocolates = [
 	'popins'
 ];
 
-array_pop($chocolates, 'lollypop');
+array_pop($chocolates);
 
 print_r($chocolates);
 ?>

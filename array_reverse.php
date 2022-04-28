@@ -6,6 +6,6 @@ $chocolates = [
 	'popins'
 ];
 
-array_reverse($chocolates, 'lollypop');
+array_reverse($chocolates);
 
 print_r($chocolates);

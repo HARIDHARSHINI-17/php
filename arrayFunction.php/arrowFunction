@@ -1,0 +1,57 @@
+MERGE:
+<?php
+$language1 = ['Tamil','English'];
+$language2 = ['Hindi', 'Sanskrit'];
+$language = array_merge($language1, $language2);
+print_r($language);
+?>
+POP:
+<?php
+$chocolates = [
+	'kitkat',
+	'dairymilk',
+	'popins'
+];
+array_pop($chocolates);
+print_r($chocolates);
+?>
+PUSH:
+<?php
+$chocolates = [
+	'kitkat',
+	'dairymilk',
+	'popins'
+];
+array_push($chocolates, 'lollypop');
+print_r($chocolates);
+?>
+REVERSE:
+<?php
+$chocolates = [
+	'kitkat',
+	'dairymilk',
+	'popins'
+];
+array_reverse($chocolates);
+print_r($chocolates);
+?>
+SHIFT:
+<?php
+$chocolates = [
+	'kitkat',
+	'dairymilk',
+	'popins'
+];
+array_shift($chocolates);
+print_r($chocolates);
+?>
+UNSHIFT:
+<?php
+$chocolates = [
+	'kitkat',
+	'dairymilk',
+	'popins'
+];
+array_unshift($chocolates, 'lollypop');
+print_r($chocolates);
+?>

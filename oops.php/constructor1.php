@@ -2,8 +2,8 @@
 
 class BankAccount
 {
-	private $accountNumber;
-	private $balance;
+	public $accountNumber;
+	public $balance;
 
 	public function __construct($accountNumber, $balance)
 	{

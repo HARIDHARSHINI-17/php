@@ -1,6 +1,6 @@
 <?php
-   setcookie("name", "John Watkin", time()+3600, "/","", 0);
-   setcookie("age", "36", time()+3600, "/", "",  0);
+   setcookie("name", "Haridharshini", time()+3600, "/","", 0);
+   setcookie("age", "21", time()+3600, "/", "",  0);
 ?>
 <html>
    

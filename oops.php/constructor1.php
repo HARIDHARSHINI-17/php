@@ -1,17 +1,15 @@
 <?php
-
-class BankAccount
+class Person
 {
-	public $accountNumber;
-	public $balance;
-
-	public function __construct($accountNumber, $balance)
+	public $name;
+	public $age;
+	public function __construct($name, $age)
 	{
-		$this->accountNumber = $accountNumber;
-		$this->balance = balance;
+		$this->name = $name;
+		$this->age = $age;
 	}	
 }
-$account = new BankAccount(1,1000);
-echo $account->accountNumber;
-echo $account->$balance;
+$Obj1 = new Person("hari",21);
+echo $Obj1->name ."\n";
+echo $Obj1->age;
 ?>

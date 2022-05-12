@@ -16,9 +16,7 @@
 ?>
 <?php
    function d($whole){
-       echo '<pre>';
        var_dump($whole);
-       echo '<pre>';
    }
    $street = 'Anna nagar';
    d($street);
